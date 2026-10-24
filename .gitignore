@@ -30,3 +30,6 @@ npm-debug.log*
 
 # 如果某次作业确实要交压缩包，用这个命令强制加入：
 #   git add -f 作业.zip
+
+# ---- 第3讲词云：中文字体体积大，不入库（运行前自备 simsun.ttf）----
+simsun.ttf
