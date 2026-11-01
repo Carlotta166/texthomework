@@ -55,6 +55,7 @@
     ├── sentiment_analysis_4_大模型_朱自清_背影.ipynb
     ├── beijing_sentiment_timeline.png
     ├── timeline_ggplot.png
+    ├── 第4讲-HanLP情感分析截图.png
     └── restaurant-comments.xlsx / 背影.txt   # 运行依赖
 ```
 
