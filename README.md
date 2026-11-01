@@ -15,6 +15,7 @@
 | 01 | 第1讲 感知世界：课程导言与分词 | 2026-10-24 | [第1讲-课程导言与分词/](第1讲-课程导言与分词/) |
 | 02 | 第2讲 感知世界：词频统计与分析 | 2026-10-24 | [第2讲-词频统计与分析/](第2讲-词频统计与分析/) |
 | 03 | 第3讲 感知世界：词云与可视化 | 2026-10-24 | [第3讲-词云与可视化/](第3讲-词云与可视化/) |
+| 04 | 第4讲 感知世界：情感分析 | 2026-11-01 | [第4讲-情感分析/](第4讲-情感分析/) |
 
 ## 目录说明
 
@@ -39,13 +40,22 @@
 │   ├── tf2_the_huangxuhua.ipynb
 │   ├── tf2_the_three_kingdoms.ipynb
 │   └── *.txt                  # 文本与人名/兵器词表（运行依赖）
-└── 第3讲-词云与可视化/         # 已提交
+├── 第3讲-词云与可视化/         # 已提交
+│   ├── README.md
+│   ├── wordcloud_huangxuhua.ipynb
+│   ├── wordcloud_cn.ipynb
+│   ├── 黄旭华词云_高清矩形版.png
+│   ├── 黄旭华词云_头像剪影版.png
+│   └── *.txt / *.jpg           # 文本与遮罩图（运行依赖）
+└── 第4讲-情感分析/             # 已提交
     ├── README.md
-    ├── wordcloud_huangxuhua.ipynb
-    ├── wordcloud_cn.ipynb
-    ├── 黄旭华词云_高清矩形版.png
-    ├── 黄旭华词云_头像剪影版.png
-    └── *.txt / *.jpg           # 文本与遮罩图（运行依赖）
+    ├── sentiment_analysis_1_chuji.ipynb
+    ├── sentiment_analysis_2_timeline.ipynb
+    ├── sentiment_analysis_3_大模型_健康文本细粒度情感抽取.ipynb
+    ├── sentiment_analysis_4_大模型_朱自清_背影.ipynb
+    ├── beijing_sentiment_timeline.png
+    ├── timeline_ggplot.png
+    └── restaurant-comments.xlsx / 背影.txt   # 运行依赖
 ```
 
 > 第 3 讲所需的 `simsun.ttf`（约 10MB 中文字体）**未入库**，运行前请自行放到对应目录，详见该讲 README。
